@@ -1,0 +1,97 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic";
+
+body {
+  text-align: justify;
+  font-family:'Helvetica';
+  margin: 0;
+  background: url('https://images.unsplash.com/photo-1462146449396-2d7d4ba877d7?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');
+  background-attachment:fixed;
+}
+p{
+  max-width: 100%;
+}
+header {
+  
+}
+img {
+  max-width:100%;
+}
+.name, .intro {
+  margin: 0 auto;
+  font-family:'Open Sans';
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px #222;
+  max-width:100%;
+}
+.name {
+  font-size: 78px;
+  padding: 20px 0em 150px;
+  letter-spacing: 6px;
+}
+.intro {
+  font-size:60px;
+  line-height: 50px;
+  padding: 150px 0em 20px;
+}
+nav {
+  background-color: white;
+  width: 700px;
+  margin: 0 auto;
+}
+section {
+  padding:10px 20px;
+  margin:0px 0px 15px 0px;
+}
+.about, .hobby, .muzyka, .lotem {
+  border: 1px grey solid;
+  box-shadow: 2px 2px 5px #777777;
+  background: white;
+}
+.content {
+  margin: 0 auto;
+  width: 700px;
+  max-width:100%;
+}
+li {
+  display:inline-block;
+  width:100px;
+  text-align: center;
+}
+a {
+  text-decoration:none;
+  color: inherit;
+}
+li a:hover not {
+}
+.studies {
+  font-weight: 800;
+}
+footer {
+  margin: 0 auto;
+  width: 700px;
+  text-align:center;
+}
+profilowka {
+  text-align:center;
+  border: 2px solid;
+  border-radius:50px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+
+  }
+  p {
+    width:400px;
+  }
+  content {
+    width: 480px;
+  }
+  .name {
+    font-size: 3.5em;
+
+  }
+  .intro {
+    font-size: 2.75em;
+  }
